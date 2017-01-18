@@ -1,0 +1,5 @@
+WIDTH = 800 #screen size
+HEIGHT = 600
+
+DATA_RANGE = 600
+ITER_MAX = 1000*1000
