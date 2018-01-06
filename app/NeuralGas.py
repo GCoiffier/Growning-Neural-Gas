@@ -137,7 +137,7 @@ class NeuralGas:
 					v.neightbours.remove(u)
 				except :
 					print("edge.remove : no such edge")
-					
+
 				# 7.4 : create a new node r between u and v
 				r = nr.Neuron([ (u.pos[0]+v.pos[0])/2 , (u.pos[1]+v.pos[1])/2])
 				self.neurons.add(r)
